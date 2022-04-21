@@ -20,3 +20,8 @@ void NODE::insert(NODE*& x){
      x->next=this;
 
      }
+
+void NODE::survive()
+{
+  size = 0;
+}

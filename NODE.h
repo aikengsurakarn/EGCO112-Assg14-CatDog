@@ -7,4 +7,5 @@ public:
         void insert(NODE*&);
         NODE* move_next();
          ~NODE();
+        void survive();
       };

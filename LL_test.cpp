@@ -23,7 +23,6 @@ int main(int argc, char *argv[])
   d1.NODE::show_node(); 
   cout<<"========="<<endl;
 
-  NODE *n1;
   n1=new cat(3, 5);
   n1->show_node();
   delete n1;
